@@ -8,6 +8,14 @@ Version de este port: `v1.2.3 AIO + FIX` (basado en DDLC-LOVE v1.2.3, con traduc
 
 ---
 
+## ✅ INSTALACION SIMPLE — NO REQUIERE LUA PLAYER
+
+**Este port ya NO necesita instalar "Lua Player PS3" ni ningun otro homebrew previo.**
+Todo va integrado dentro del PKG: **solo instala el PKG y listo**, aparece en el XMB
+como un juego mas y corre directo desde ahi.
+
+---
+
 ## ⚠️ AVISO IMPORTANTE — ESTABILIDAD
 
 **A este port se le aplicaron numerosas correcciones de estabilidad** (audio, memoria,
@@ -118,6 +126,7 @@ debe proveer sus propios assets desde su copia legitima del juego colocandolos d
 
 - **LukeZGD** — creador de [DDLC-LOVE](https://github.com/LukeZGD/DDLC-LOVE), la base de
   todo este port.
+- **GlowTranslations** — traduccion al espanol de DDLC.
 - **Team Salvato** — creadores de Doki Doki Literature Club.
 - **Hermes / Estwald** — spu_soundlib y las librerias homebrew de PS3 que mueven el audio
   por SPU.
