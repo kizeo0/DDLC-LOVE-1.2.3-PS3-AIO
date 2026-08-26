@@ -4,7 +4,7 @@ Port no oficial de **Doki Doki Literature Club** a **PlayStation 3**, construido
 [DDLC-LOVE](https://github.com/LukeZGD/DDLC-LOVE) de LukeZGD y ejecutado mediante
 **LuaPlayerPS3 5.2.1**.
 
-Version de este port: `v1.2.3 AIO + FIX` (basado en DDLC-LOVE v1.2.3, con traduccion al espanol)
+Version de este port: `v1.2.3 AIO + FIX` (basado en DDLC-LOVE v1.2.3, con traduccion al español)
 
 ---
 
