@@ -13,7 +13,7 @@ Versión: `v1.2.3 AIO + FIX`
 
 ## ✅ INSTALACION SIMPLE — NO REQUIERE LUA PLAYER
 
-**Este port ya NO necesita instalar "Lua Player PS3" ni ningun otro homebrew previo.**
+**Esto ya NO necesita instalar "Lua Player PS3" ni ningun otro homebrew previo.**
 Todo va integrado dentro del PKG: **solo instala el PKG y listo**, aparece en el XMB
 como un juego mas y corre directo desde ahi.
 
@@ -121,8 +121,8 @@ debe proveer sus propios assets desde su copia legitima del juego colocandolos d
   los poemas largos entren completos en pantalla.
 - **"JUST MONIKA"** en la pantalla de titulo durante el Acto 3 o posterior, como en el
   juego original.
-- Teclado en pantalla traducido al espanol (nombre del jugador, mayusculas, espacio, entrar).
-- Incluye traduccion completa al espanol (ademas del ingles original).
+- Teclado en pantalla traducido al español (nombre del jugador, mayusculas, espacio, entrar).
+- Incluye traduccion completa al español (ademas del ingles original).
 
 ### Diagnostico
 - Logger opcional a `savedata/logfile.txt`: registra cada textura cargada, transicion de
@@ -137,7 +137,7 @@ debe proveer sus propios assets desde su copia legitima del juego colocandolos d
 - **Team Salvato** — creadores de Doki Doki Literature Club.
 - **Hermes / Estwald** — spu_soundlib y las librerias homebrew de PS3 que mueven el audio
   por SPU.
-- **Comunidad Lua Player PS3** — interprete LuaPlayerPS3 5.2.1.
+- **3141card / Comunidad Lua Player PS3** — interprete LuaPlayerPS3 5.2.1.
 - **KiZeo** — compilación AIO en PKG, correcciones de estabilidad y empaquetado.
 
 ## Licencias
