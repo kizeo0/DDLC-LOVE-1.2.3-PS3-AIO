@@ -10,7 +10,7 @@ Version de este port: `v1.2.3 AIO + FIX` (basado en DDLC-LOVE v1.2.3, con traduc
 
 ## ✅ INSTALACION SIMPLE — NO REQUIERE LUA PLAYER
 
-**Este port ya NO necesita instalar "Lua Player PS3" ni ningun otro homebrew previo.**
+**Esto ya NO necesita instalar "Lua Player PS3" ni ningun otro homebrew previo.**
 Todo va integrado dentro del PKG: **solo instala el PKG y listo**, aparece en el XMB
 como un juego mas y corre directo desde ahi.
 
