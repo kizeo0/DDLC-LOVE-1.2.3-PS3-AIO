@@ -1,10 +1,13 @@
-# DDLC-LOVE 1.2.3 — PS3 PORT (AIO + FIX)
+# DDLC-LOVE 1.2.3 — PS3 (PKG Todo-en-Uno + Correcciones)
 
-Port no oficial de **Doki Doki Literature Club** a **PlayStation 3**, construido sobre
-[DDLC-LOVE](https://github.com/LukeZGD/DDLC-LOVE) de LukeZGD y ejecutado mediante
-**LuaPlayerPS3 5.2.1**.
+Compilación **todo-en-uno (AIO) lista para instalar** basada en el port de
+[DDLC-LOVE](https://github.com/LukeZGD/DDLC-LOVE) de LukeZGD para **PlayStation 3**
+(ejecutada mediante **LuaPlayerPS3 5.2.1**). Reúne la versión 1.2.3 en español/inglés
+con todas las correcciones de estabilidad aplicadas. No es un port nuevo desde cero:
+el port original es de LukeZGD; aquí se empaqueta y se corrige para que sea instalable
+y jugable directo en PS3.
 
-Version de este port: `v1.2.3 AIO + FIX` (basado en DDLC-LOVE v1.2.3, con traduccion al español)
+Versión: `v1.2.3 AIO + FIX`
 
 ---
 
@@ -25,8 +28,10 @@ LuaPlayerPS3 5.2.1 (solo existe como binario compilado), existen fugas de memori
 limitaciones a nivel del motor que NO pueden eliminarse desde los scripts del juego.
 Por lo tanto **el juego sigue pudiendo ser inestable en ocasiones**, especialmente en
 partidas muy largas o con uso intensivo del avance rapido (R1).
-Si el juego llegara a congelarse, simplemente reinicialo: las partidas guardadas
-(autoload) te devuelven practicamente al mismo punto.
+Si el juego llegara a congelarse, simplemente reinicialo: el juego escribe
+automáticamente un guardado `save-autoload.sav` al cambiar de capítulo
+(aparece como una ranura más en **Cargar Partida**) y te devuelve
+prácticamente al mismo punto.
 
 ---
 
@@ -43,13 +48,15 @@ Si el juego llegara a congelarse, simplemente reinicialo: las partidas guardadas
 
 ## Que es esto
 
-Este repositorio contiene el trabajo de adaptar DDLC-LOVE (que ya corre en PSP, PS Vita,
-3DS, Switch y PC) a la PlayStation 3 real, corrigiendo los problemas graves que tenia la
-version base sobre el hardware de la consola: congelamientos durante el minijuego de
-poesia, al cargar partidas, al cambiar de cancion y en transiciones pesadas del Acto 2.
+Este repositorio es una **compilación AIO (todo en uno)** del port de LukeZGD para
+PS3 Real — no un port nuevo desde cero. Toma la base de DDLC-LOVE (que ya corre en
+PSP, PS Vita, 3DS, Switch y PC) y la entrega **lista para instalar como PKG** en
+PS3, corrigiendo los problemas graves que tenía la versión base sobre el hardware de
+la consola: congelamientos durante el minijuego de poesía, al cargar partidas, al
+cambiar de canción y en transiciones pesadas del Acto 2.
 
-El motor es LuaPlayerPS3 (interprete Lua homebrew) + LOVE-WrapLua (capa que traduce las
-llamadas estilo LÖVE 2D a funciones nativas de la PS3). Sobre ese conjunto se aplico una
+El motor es LuaPlayerPS3 (intérprete Lua homebrew) + LOVE-WrapLua (capa que traduce las
+llamadas estilo LÖVE 2D a funciones nativas de la PS3). Sobre ese conjunto se aplicó una
 serie de correcciones profundas documentadas abajo.
 
 **Nota:** este repo NO incluye los assets originales del juego (imagenes, audio, textos
@@ -131,7 +138,7 @@ debe proveer sus propios assets desde su copia legitima del juego colocandolos d
 - **Hermes / Estwald** — spu_soundlib y las librerias homebrew de PS3 que mueven el audio
   por SPU.
 - **Comunidad Lua Player PS3** — interprete LuaPlayerPS3 5.2.1.
-- **KiZeo** — port PS3, fixes de estabilidad, AIO y traduccion.
+- **KiZeo** — compilación AIO en PKG, correcciones de estabilidad y empaquetado.
 
 ## Licencias
 
