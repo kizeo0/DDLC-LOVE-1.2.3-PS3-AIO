@@ -114,8 +114,8 @@ debe proveer sus propios assets desde su copia legitima del juego colocandolos d
   los poemas largos entren completos en pantalla.
 - **"JUST MONIKA"** en la pantalla de titulo durante el Acto 3 o posterior, como en el
   juego original.
-- Teclado en pantalla traducido al espanol (nombre del jugador, mayusculas, espacio, entrar).
-- Incluye traduccion completa al espanol (ademas del ingles original).
+- Teclado en pantalla traducido al español (nombre del jugador, mayusculas, espacio, entrar).
+- Incluye traduccion completa al español (ademas del ingles original).
 
 ### Diagnostico
 - Logger opcional a `savedata/logfile.txt`: registra cada textura cargada, transicion de
