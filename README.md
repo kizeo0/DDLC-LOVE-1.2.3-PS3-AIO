@@ -130,8 +130,7 @@ debe proveer sus propios assets desde su copia legitima del juego colocandolos d
 - **Team Salvato** — creadores de Doki Doki Literature Club.
 - **Hermes / Estwald** — spu_soundlib y las librerias homebrew de PS3 que mueven el audio
   por SPU.
-- **Comunidad Lua Player PS3** — interprete LuaPlayerPS3 5.2.1.
-- **KiZeo** — port PS3, fixes de estabilidad, AIO y traduccion.
+- **3141card** — LuaPlayerPS3 5.2.1.
 
 ## Licencias
 
