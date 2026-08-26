@@ -8,6 +8,20 @@ Version de este port: `v1.2.3 AIO + FIX` (basado en DDLC-LOVE v1.2.3, con traduc
 
 ---
 
+## ⚠️ AVISO IMPORTANTE — ESTABILIDAD
+
+**A este port se le aplicaron numerosas correcciones de estabilidad** (audio, memoria,
+carga de assets, transiciones -- ver lista completa abajo), y el juego ya es terminable
+de principio a fin. **PERO**: al no contar con el codigo fuente del interprete
+LuaPlayerPS3 5.2.1 (solo existe como binario compilado), existen fugas de memoria y
+limitaciones a nivel del motor que NO pueden eliminarse desde los scripts del juego.
+Por lo tanto **el juego sigue pudiendo ser inestable en ocasiones**, especialmente en
+partidas muy largas o con uso intensivo del avance rapido (R1).
+Si el juego llegara a congelarse, simplemente reinicialo: las partidas guardadas
+(autoload) te devuelven practicamente al mismo punto.
+
+---
+
 > This port is unofficial and is not affiliated with Team Salvato.
 > Please support the official game.
 >
