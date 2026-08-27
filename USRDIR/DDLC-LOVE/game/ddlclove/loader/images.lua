@@ -14,7 +14,7 @@ function bgUpdate(bgx, forceload) --background changes
 		return
 	end
 	
-	if xaload == 0 or forceload then
+	if (xaload == 0 and not (autoskip and autoskip > 0 and g_system == 'PS3')) or forceload then
 		-- Durante skip, solo saltar si NO hay cambio real (xaload != 0 y no forceload)
 		if autoskip and autoskip > 0 and g_system == 'PS3' and not forceload and xaload ~= 0 then
 			bg1 = bgx
@@ -23,7 +23,7 @@ function bgUpdate(bgx, forceload) --background changes
 		if autoskip == 0 and not forceload then
 			bgch2 = bgch
 		else
-			if type(bgch) == "number" then Graphics.freeImage(bgch) end
+			if type(bgch) == "number" and not (autoskip and autoskip > 0 and g_system == 'PS3') then Graphics.freeImage(bgch) end
 			bgch = nil
 		end
 		
@@ -34,7 +34,7 @@ function bgUpdate(bgx, forceload) --background changes
 end
 
 function cgUpdate(cgx, forceload) --cg changes
-	if cg1 ~= cgx or forceload then
+	if (cg1 ~= cgx and not (autoskip and autoskip > 0 and g_system == 'PS3')) or forceload then
 		-- Durante skip, solo saltar si NO hay cambio real
 		if autoskip and autoskip > 0 and g_system == 'PS3' and not forceload and cg1 == cgx then
 			cg1 = cgx
@@ -43,7 +43,7 @@ function cgUpdate(cgx, forceload) --cg changes
 		if autoskip == 0 and not forceload then
 			cgch2 = cgch
 		else
-			if type(cgch) == "number" then Graphics.freeImage(cgch) end
+			if type(cgch) == "number" and not (autoskip and autoskip > 0 and g_system == 'PS3') then Graphics.freeImage(cgch) end
 			cgch = nil
 		end
 		cgch = nil
